@@ -1,0 +1,437 @@
+@media (max-width: 600px) {
+  .logo {
+    display: none;
+  }
+
+  .area-util {
+    margin-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: chocolate;
+  }
+  .manchete a:link {
+    position: absolute;
+    width: 345px;
+    height: 125px;
+    left: 15px;
+    font-family: Encode Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.028em;
+    color: #c4160c;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .manchete a:visited {
+    color: #c4160c;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .noticia-2 {
+    position: absolute;
+    width: 345px;
+    height: 25px;
+    left: 15px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.068em;
+    color: #cd150b;
+    margin-top: -225px;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .noticia-2 a:visited,
+  a:link {
+    color: #cd150b;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .noticia-3 {
+    margin-top: -210px;
+  }
+  .caixa1 {
+    position: absolute;
+    width: 600px;
+    top: 270px;
+    left: 15px;
+  }
+  .caixa1 div {
+    border: 1px solid white;
+    border-top-color: #ebedef;
+  }
+  .caixa1 h6 {
+    margin-top: -65px;
+    margin-left: 135px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    color: #cd150b;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa1 h6 a:visited {
+    color: #cd150b;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .caixa1 h4 {
+    margin-top: 55px;
+    margin-bottom: 20px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: -0.048em;
+    color: #cd150b;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa1 h4 a:visited {
+    color: #cd150b;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa1 p {
+    display: none;
+  }
+  .caixa2 {
+    position: absolute;
+    width: 630px;
+    top: 730px;
+    left: 15px;
+  }
+  .caixa2 div {
+    border: 1px solid white;
+    border-top-color: #ebedef;
+  }
+  .caixa2 h6 a:link {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    color: #cd150b;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa2 h6 a:visited {
+    color: #cd150b;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa2 h4 a:link {
+    margin-bottom: 20px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: -0.048em;
+    color: #cd150b;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa2 h4 a:visited {
+    color: #cd150b;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa2 p {
+    display: none;
+  }
+  .caixa3 {
+    position: absolute;
+    width: 630px;
+    height: 140px;
+    top: 900px;
+    left: 15px;
+  }
+  .caixa3 div {
+    height: 140px;
+    border: 1px solid white;
+    border-top-color: #ebedef;
+  }
+  .caixa3 img {
+    margin-top: 25px;
+    overflow: hidden;
+    background: #333;
+    border-radius: 12px;
+  }
+  .caixa3 h6 {
+    font-family: Open Sans;
+    margin-top: -70px;
+    margin-left: 130px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    color: #16ae54;
+    background-color: transparent;
+  }
+  .caixa3 h6 a:visited {
+    color: #16ae54;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa3 h4 {
+    font-family: Open Sans;
+    margin-top: 60px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: -0.048em;
+    color: #18d664;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa3 h4 a:visited {
+    color: #18d664;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa3 p {
+    display: none;
+  }
+  .caixa4 {
+    position: absolute;
+    width: 630px;
+    top: 1330px;
+    left: 15px;
+
+    justify-content: space-around;
+  }
+  .caixa4 div {
+    height: 140px;
+    border: 1px solid white;
+    border-top-color: #ebedef;
+  }
+  .caixa4 h6 {
+    margin-top: -70px;
+    margin-left: 130px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ec8006;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa4 h4 {
+    margin-top: 60px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: -0.048em;
+    color: #ec8006;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa4 p {
+    display: none;
+  }
+  .barra-superior {
+    align-items: center;
+    height: 80px;
+  }
+  .bord-1 {
+    height: 1px;
+    background: #e6e6e6;
+  }
+  .g1 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 41px;
+    top: 81px;
+    color: #c3170c;
+  }
+  .g1 a:visited,
+  a:link {
+    color: #c3170c;
+  }
+  .valor {
+    position: absolute;
+    top: -100px;
+  }
+
+  .globo {
+    position: absolute;
+    top: -100px;
+  }
+  .ge {
+    position: absolute;
+    width: 55px;
+    height: 40px;
+    left: 81px;
+    top: 81px;
+    color: #07aa47;
+  }
+  .ge a:visited,
+  a:link {
+    color: #07aa47;
+  }
+  .cartola {
+    position: absolute;
+    top: -100px;
+  }
+  .play {
+    position: absolute;
+    top: -100px;
+  }
+  .dropz {
+    position: absolute;
+    top: -100px;
+  }
+  .show {
+    position: absolute;
+    width: 94px;
+    height: 40px;
+    left: 121px;
+    top: 80px;
+    color: #ec7d00;
+  }
+  .show a:visited,
+  a:link {
+    color: #ec7d00;
+  }
+  .tech {
+    position: absolute;
+    width: 94px;
+    height: 40px;
+    left: 210px;
+    top: 80px;
+    color: #666666;
+  }
+  .tech a:visited,
+  a:link {
+    color: #666666;
+  }
+  .videos {
+    position: absolute;
+    width: 94px;
+    height: 40px;
+    left: 280px;
+    top: 80px;
+    color: #0769de;
+  }
+  .videos a:visited,
+  a:link {
+    color: #0769de;
+  }
+  .quem {
+    position: absolute;
+    top: -100px;
+  }
+  .receitas {
+    position: absolute;
+    top: -100px;
+  }
+  .fonte {
+    font-family: Encode Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+  }
+  .bord-1 {
+    position: absolute;
+    width: 624px;
+    height: 1px;
+    background-color: #ebedef;
+  }
+  .caixa1 img {
+    margin-top: 25px;
+    width: 120px;
+    height: 67px;
+    overflow: hidden;
+    background: #333;
+    border-radius: 12px;
+  }
+  .caixa3 img {
+    width: 120px;
+    height: 67px;
+    overflow: hidden;
+    background: #333;
+    border-radius: 12px;
+  }
+  .caixa4 img {
+    margin-top: 25px;
+    width: 120px;
+    height: 67px;
+    overflow: hidden;
+    background: #333;
+    border-radius: 12px;
+  }
+  .margem {
+    height: 3px;
+    background: black;
+  }
+  .area-util {
+    position: absolute;
+    top: 150px;
+  }
+
+  .caixa4 h6 a:visited {
+    color: #ec8006;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa4 h6 a:hover {
+    color: #e9a250;
+  }
+
+  .caixa4 h4 a:visited {
+    color: #e9922f;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .caixa4 p a:visited {
+    color: #2f3134;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa4 h4 a:hover {
+    color: #46494d;
+  }
+  .caixa4 p a:hover {
+    color: #46494d;
+  }
+}
+@media (min-width: 601px) {
+  .logo-mobile {
+    display: none;
+  }
+  .area-util {
+    width: 1250px;
+    margin-left: 140px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .videos {
+    position: absolute;
+    top: -100px;
+  }
+  .tech {
+    position: absolute;
+    top: -100px;
+  }
+}

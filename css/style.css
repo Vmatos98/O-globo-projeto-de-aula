@@ -1,0 +1,604 @@
+.logo-mobile {
+  position: absolute;
+  width: 171px;
+  height: 36px;
+  left: 105px;
+  top: 22px;
+}
+@media (min-width: 601px) {
+  .barra-superior {
+    align-items: center;
+    height: 80px;
+  }
+  .menu-superior {
+    margin-left: 140px;
+    display: flex;
+    height: 40px;
+  }
+  .fonte {
+    font-family: Encode Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+  }
+  .logo {
+    position: absolute;
+    width: 171px;
+    height: 36px;
+    left: 715px;
+    top: 22px;
+  }
+
+  .flex {
+    display: flex;
+  }
+  .wrap {
+    flex-wrap: wrap;
+  }
+  .esquerda {
+    width: 630px;
+    height: 845px;
+    left: 140px;
+  }
+  .direita {
+    width: 620px;
+    height: 845px;
+  }
+
+  .bord-1 {
+    height: 1px;
+    background: #f5f6f7;
+  }
+
+  .bord-2 {
+    position: absolute;
+    width: 624px;
+    height: 1px;
+    background-color: #ebedef;
+  }
+  .bord-3 {
+    position: absolute;
+    top: 162px;
+    left: 817px;
+    width: 1px;
+    height: 845px;
+    background-color: #ebedef;
+  }
+  .area-util {
+    width: 1250px;
+    margin-left: 140px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .manchete a:link {
+    position: absolute;
+    width: 624px;
+    height: 201px;
+    left: 151px;
+    top: 160px;
+    font-family: Encode Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 67px;
+    letter-spacing: -0.01em;
+    color: #c4160c;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .manchete a:visited {
+    color: #c4160c;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .noticia-2 {
+    position: absolute;
+    width: 622px;
+    height: 25px;
+    left: 153px;
+  }
+  .noticia-2 a:link {
+    background-color: transparent;
+    text-decoration: none;
+    color: #303134;
+  }
+  .noticia-2 a:visited {
+    background-color: transparent;
+    text-decoration: none;
+    color: #303134;
+  }
+  .noticia-2 a:hover {
+    color: #515257;
+  }
+  .caixa1 {
+    position: absolute;
+    width: 630px;
+    top: 490px;
+
+    justify-content: space-around;
+  }
+  .caixa1 img {
+    width: 193px;
+    height: 110px;
+    overflow: hidden;
+    background: #333;
+    border-radius: 12px;
+  }
+  .caixa1 div {
+    width: 193px;
+  }
+
+  .caixa1 h6 a:link {
+    width: 192px;
+    height: 19px;
+    font-family: Encode Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: #c4170c;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa1 h6 a:visited {
+    background-color: transparent;
+    text-decoration: none;
+    color: #c4170c;
+  }
+  .caixa1 h6 a:hover {
+    color: #d44b42;
+  }
+  .caixa1 h4 a:link {
+    width: 170px;
+    height: 84px;
+    top: 644px;
+    font-family: Encode Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.045em;
+    color: #2f3134;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa1 h4 a:visited {
+    color: #2f3134;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa1 p a:link {
+    position: absolute;
+    width: 174px;
+    height: 42.5px;
+    top: 230px;
+    font-family: Encode Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.048em;
+    color: #2f3134;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa1 p a:visited {
+    color: #2f3134;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa1 h4 a:hover {
+    color: #46494d;
+  }
+  .caixa1 p a:hover {
+    color: #46494d;
+  }
+  .caixa2 {
+    position: absolute;
+    width: 630px;
+    top: 837px;
+    justify-content: space-around;
+  }
+  .caixa2 div {
+    width: 193px;
+  }
+  .caixa2 h6 a:link {
+    width: 192px;
+    height: 19px;
+    font-family: Encode Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: #c4170c;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa2 h6 a:visited {
+    color: #c4170c;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa2 h6 a:hover {
+    color: #d44b42;
+  }
+  .caixa2 h4 a:link {
+    position: absolute;
+    width: 170px;
+    height: 84px;
+    top: 30px;
+    font-family: Encode Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.045em;
+    color: #2f3134;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa2 h4 a:visited {
+    color: #2f3134;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa2 p {
+    position: absolute;
+    width: 174px;
+    height: 42.5px;
+    top: 125px;
+    font-family: Encode Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.048em;
+    color: #2f3134;
+  }
+  .caixa2 p a:link {
+    color: #2f3134;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa2 p a:visited {
+    color: #2f3134;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa2 h4 a:hover {
+    color: #46494d;
+  }
+  .caixa2 p a:hover {
+    color: #46494d;
+  }
+  .caixa3 {
+    position: absolute;
+    width: 240px;
+    height: 845px;
+    left: 853px;
+    top: 162px;
+  }
+  .caixa3 img {
+    width: 240px;
+    height: 128px;
+    overflow: hidden;
+    background: #333;
+    border-radius: 12px;
+  }
+  .caixa3 div {
+    width: 240px;
+    height: 240px;
+  }
+  .caixa3 h6 a:link {
+    width: 192px;
+    height: 25px;
+    font-family: Encode Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: #16ae54;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa3 h6 a:visited {
+    color: #16ae54;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa3 h6 a:hover {
+    color: #32ca6f;
+  }
+  .caixa3 h4 a:link {
+    position: absolute;
+    width: 240px;
+    height: 84px;
+    font-family: Encode Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.045em;
+    color: #2f3134;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa3 h4 a:visited {
+    color: #2f3134;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa3 p {
+    position: absolute;
+    height: 90px;
+    width: 174px;
+    font-family: Encode Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.048em;
+    color: #2f3134;
+  }
+  .caixa3 p a:link {
+    color: #2f3134;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa3 p a:visited {
+    background-color: transparent;
+    text-decoration: none;
+    color: #2f3134;
+  }
+  .caixa3 h4 a:hover {
+    color: #46494d;
+  }
+  .caixa3 p a:hover {
+    color: #46494d;
+  }
+  .caixa4 {
+    position: absolute;
+    width: 240px;
+    height: 845px;
+    left: 1165px;
+    top: 162px;
+  }
+  .caixa4 img {
+    width: 240px;
+    height: 128px;
+    overflow: hidden;
+    background: #333;
+    border-radius: 12px;
+  }
+  .caixa4 div {
+    width: 240px;
+  }
+  .caixa4 h6 a:link {
+    width: 192px;
+    height: 25px;
+    font-family: Encode Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: #ec8006;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa4 h6 a:visited {
+    color: #ec8006;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa4 h6 a:hover {
+    color: #e9a250;
+  }
+  .caixa4 h4 a:link {
+    position: absolute;
+    width: 240px;
+    height: 84px;
+    font-family: Encode Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.045em;
+    color: #2f3134;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa4 h4 a:visited {
+    color: #2f3134;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa4 p {
+    position: absolute;
+    height: 90px;
+    width: 200px;
+    font-family: Encode Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.048em;
+    color: #2f3134;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa4 p a:link {
+    color: #2f3134;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa4 p a:visited {
+    color: #2f3134;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .caixa4 h4 a:hover {
+    color: #46494d;
+  }
+  .caixa4 p a:hover {
+    color: #46494d;
+  }
+  .f-j {
+    height: 160px;
+  }
+  .v-s {
+    height: 220px;
+  }
+  .g1 a:link {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 145px;
+    top: 90px;
+    color: #c3170c;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  .g1 a:visited {
+    color: #c3170c;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .globo a:link {
+    position: absolute;
+    width: 89px;
+    height: 40px;
+    left: 231px;
+    top: 91px;
+    color: #1e4b9b;
+    text-decoration: none;
+  }
+  .globo a:visited {
+    color: #1e4b9b;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .valor a:link {
+    position: absolute;
+    width: 70px;
+    height: 40px;
+    left: 375px;
+    top: 90px;
+    color: #006766;
+    text-decoration: none;
+  }
+  .valor a:visited {
+    color: #006766;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .ge a:link {
+    position: absolute;
+    width: 45px;
+    height: 40px;
+    left: 501px;
+    top: 90px;
+    color: #07aa47;
+    text-decoration: none;
+  }
+  .ge a:visited {
+    color: #07aa47;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .cartola a:link {
+    position: absolute;
+    width: 86px;
+    height: 40px;
+    left: 603px;
+    top: 90px;
+    color: #e3662b;
+    text-decoration: none;
+  }
+  .cartola a:visited {
+    color: #e3662b;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .play a:link {
+    position: absolute;
+    width: 113px;
+    height: 40px;
+    left: 733px;
+    top: 90px;
+    color: #fb0735;
+    text-decoration: none;
+  }
+  .play a:visited {
+    color: #fb0735;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .dropz a:link {
+    position: absolute;
+    width: 75px;
+    height: 40px;
+    left: 902px;
+    top: 90px;
+    color: #ff75bb;
+    text-decoration: none;
+  }
+  .dropz a:visited {
+    color: #ff75bb;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .show a:link {
+    position: absolute;
+    width: 84px;
+    height: 40px;
+    left: 1033px;
+    top: 90px;
+    color: #ec7d00;
+    text-decoration: none;
+  }
+  .show a:visited {
+    color: #ec7d00;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .quem a:link {
+    position: absolute;
+    width: 74px;
+    height: 40px;
+    left: 1196px;
+    top: 90px;
+    color: #323333;
+    text-decoration: none;
+  }
+  .quem a:visited {
+    color: #323333;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .receitas a:link {
+    position: absolute;
+    width: 93px;
+    height: 40px;
+    left: 1340px;
+    top: 90px;
+    color: #a81d83;
+    text-decoration: none;
+  }
+  .receitas a:visited {
+    color: #a81d83;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .body {
+    background-color: E5E5E5;
+  }
+}
